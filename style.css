@@ -205,16 +205,50 @@ footer{
     background-color: white;
     height: 100%;
     width: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 80px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#left-footer span{
+    font-size: 1.5rem;
+    color: #dadada; 
+}
+
+#left-footer p{
+    font: 1rem;
+    text-align: center;
+    width: 50%;
+    color: #555;
+}
+
+#left-footer #icon-footer{
+    margin-top: 60px;
+}
+
+#icon-footer i{
+    font-size: 1.2rem;
+    color: #555;
+    border:1px solid #dadada;
+    border-radius: 50%;
+    background-color: whitesmoke;
 }
 
 #center-footer{
     background-color: red;
     height: 100%;
-    width: 60%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/736x/e9/af/b2/e9afb25f6176bf4120e9408ae5f5d8c4.jpg);
+    background-size: cover;
 }
 
 #right-footer{
     background-color: black;
     height: 100%;
-    width: 20%;
+    width: 30%;
+    background-image: url(https://i.pinimg.com/1200x/a2/04/c9/a204c9420881b0275f596dafbb97010e.jpg);
+    background-size: cover;
 }
